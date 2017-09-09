@@ -41,7 +41,7 @@ def translate_addr(addr):
 	translate address name into 'format name ' and latitude, longtitude
 	'''
 
-	with open('team_location_info11.txt','a+') as file:
+	with open('team_location_info.txt','a+') as file:
 		gmaps = googlemaps.Client(key=API_KEY)
 		for address in addr:
 			
